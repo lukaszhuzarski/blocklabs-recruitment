@@ -16,6 +16,8 @@ const Header = () => {
         </nav>
       </div>
       <div className='header__right'>
+      <div className='with-border'>
+      <img src="icons/ethereum-1.svg" alt="ethereum" />
         <select name='currencies' className='with-border'>
           {boxes.map((option) => (
             <option key={option.id} value={option.id}>
@@ -23,10 +25,12 @@ const Header = () => {
             </option>
           ))}
         </select>
-        <span className='user with-border'>
-        <img className="user-icon"src='icons/cryptocurrency.png' alt='cryptocurrency' />
-          0xA2b...43156</span>
-      </div>
+        </div>
+        <div className='user with-border'>
+          <img src="icons/cryptocurrency.png" alt="asd" />
+          <span> 0xA2b...43156</span>
+        </div>
+        </div>
     </header>
   );
 };
