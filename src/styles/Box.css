@@ -1,0 +1,31 @@
+.box {
+    color: white;
+    height: 144px;
+    width: 615px;
+    border: 1px solid #221E37;
+    border-radius: 8px;
+    margin-left: 85px;
+    margin-bottom: 29px;
+}
+
+img {
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    margin-left: 28px;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: gray;
+    float: left;
+
+}
+
+h3 {
+    float: left;
+    margin-left: 20px;
+}
+
+p {
+    
+}
