@@ -1,0 +1,62 @@
+@import '../../../sass/vars.scss';
+
+.box {
+  width: calc(50% - 15px);
+  border: 2px solid $border;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 28px;
+  box-sizing: border-box;
+  text-decoration: none;
+  &__left {
+    display: flex;
+    align-items: center;
+    .logo {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+
+      img {
+        height: 50%;
+      }
+    }
+    .content {
+      color: $white;
+      h3 {
+        font-size: 3rem;
+        line-height: 40px;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 1.6rem;
+        margin: 0;
+      }
+    }
+  }
+  &__right {
+    .icon {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid $border;
+      border-radius: 7px;
+      img {
+        width: 20px;
+      }
+    }
+  }
+  &:hover {
+    transition: color 0.3s ease-in-out;
+    background-color: #764e8c;
+  }
+}

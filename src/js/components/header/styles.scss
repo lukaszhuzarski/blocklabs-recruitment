@@ -1,0 +1,66 @@
+@import '../../../sass/vars.scss';
+
+.header {
+  background: $main;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 92px 1px 84px;
+  border-bottom: 2px solid $border;
+  &__left {
+    display: flex;
+
+    .logo {
+      font-size: 3.6rem;
+      line-height: 42px;
+      color: $white;
+      padding-bottom: 20px;
+    }
+    nav {
+      margin-left: 160px;
+      display: flex;
+      padding-top: 8px;
+      a {
+        font-size: 1.7rem;
+        line-height: 23px;
+        padding: 0 10px;
+        margin-right: 20px;
+        color: $white;
+        text-decoration: none;
+        border-bottom: 4px solid transparent;
+        margin-bottom: -4px;
+        transition: color 0.3s ease-in-out;
+        &.active {
+          color: $violet;
+          border-color: $violet;
+        }
+        &:hover {
+          color: $violet;
+        }
+      }
+    }
+  }
+
+  &__right {
+    .with-border {
+      padding: 10px 10px 10px 10px;
+      border: 2px solid $border;
+      border-radius: 7px;
+      background: transparent;
+      color: $white;
+      font-size: 1.6rem;
+    }
+    select {
+      margin-right: 20px;
+      cursor: pointer;
+      option {
+        background-color: $main;
+      }
+    }
+
+    .user-icon {
+        margin: -5px 10px;
+        width: 25px;
+    }
+  }
+}

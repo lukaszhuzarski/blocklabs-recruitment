@@ -1,0 +1,11 @@
+[33mcommit b9255322be98fd2ba4ac1a690cc09e135437e803[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Lukasz <lukaszhuzarski@icloud.com>
+Date:   Sun Feb 27 03:01:33 2022 +0100
+
+    first commit
+
+[33mcommit fd30078c40e1c06ed4bf73868a8717e1ee1a277c[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Lukasz <lukaszhuzarski@icloud.com>
+Date:   Sat Feb 26 23:59:03 2022 +0100
+
+    Initialize project using Create React App
